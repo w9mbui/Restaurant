@@ -1,0 +1,87 @@
+body {
+  font-family: 'Playfair Display';
+  margin: 0;
+}
+.top-part {
+  background-color: black;
+  color: white;
+  padding: 9px 21px;
+  font-size: 15px;
+}
+.main-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+}
+.logo img {
+  height: 60px;
+}
+.navbarr ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+.navbarr a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+.navbarr a:hover {
+    color: #c8a66a;
+}
+.hero{
+    background-image: url(me.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1{
+    color: rgb(242, 229, 207);
+    font-size: 40px;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.contain{
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.label{
+    color: #c2a875;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: xx-large;
+}
+.res{
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.res span{
+    font-weight: normal;
+    margin-right: 12px;
+}
+.hours{
+    font-size: 1rem;
+    color: black;
+    margin: 4px 0;
+}
+.fix{
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
