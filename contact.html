@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        font-family: 'Playfair Display';
+      }
+      .main-header {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        border-bottom: 1px solid #ddd;
+      }
+      .logo img {
+        height: 60px;
+      }
+      .navbarr ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 30px;
+        text-align: center;
+      }
+      .navbarr a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+      }
+      .navbarr a:hover {
+        color: #c8a66a;
+      }
+
+      .contact-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #111;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      }
+
+      .contact-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        margin: 10px 0 5px;
+        font-size: 16px;
+      }
+
+      input,
+      textarea {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #222;
+        color: #fff;
+        font-size: 14px;
+        resize: vertical;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: 2px solid #555;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 12px;
+        background-color: #444;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #666;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-part">
+      <span
+        ><i class="fa fa-phone" aria-hidden="true"></i>Call for Reservations:
+        +254 757 130 061</span
+      >
+    </div>
+    <header class="main-header">
+      <div class="logo">
+        <img src="better.png" alt="The Local Grill" />
+      </div>
+      <nav class="navbarr">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">MENUS</a></li>
+          <li><a href="history.html">HISTORY</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="res.html">RESERVATION</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="footer">&copy; 2025 The local grill. All rights reserved.</div>
+  </body>
+</html>
