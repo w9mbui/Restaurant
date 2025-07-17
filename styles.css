@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   margin: 0;
 }
 .top-part {
@@ -27,112 +27,136 @@ body {
   gap: 30px;
   text-align: center;
 }
-.navbarr a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    font-size: 15px;
-    text-align: center;
+.navbarr a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
 }
 .navbarr a:hover {
-    color: #c8a66a;
+  color: #c8a66a;
 }
-.hero{
-    background-image: url(me.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.hero {
+  background-image: url(me.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.hero h1{
-    color: rgb(242, 229, 207);
-    font-size: 40px;
-    padding: 20px 30px;
-    border-radius: 5px;
+.hero h1 {
+  color: rgb(242, 229, 207);
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #222;
 }
-.contain{
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
+.contain {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
 }
-.label{
-    color: #c2a875;
-    font-weight: bold;
-    margin-bottom: 12px;
-    font-size: xx-large;
+.label {
+  color: #c2a875;
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: xx-large;
 }
-.res{
-    font-size: medium;
-    font-weight: bold;
-    margin: 10px 0;
+.res {
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px 0;
 }
-.res span{
-    font-weight: normal;
-    margin-right: 12px;
+.res span {
+  font-weight: normal;
+  margin-right: 12px;
 }
-.hours{
-    font-size: 1rem;
-    color: black;
-    margin: 4px 0;
+.hours {
+  font-size: 1rem;
+  color: black;
+  margin: 4px 0;
 }
-.fix{
-    text-align: center;
-    margin: 0;
-    padding: 40px 20px;
+.fix {
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
 }
-.footer{
+.footer {
   background-color: black;
-  padding: 60px 40px 30px;
+  padding: 30px 40px 10px;
 }
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   border-bottom: 1px solid #222;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
-.footer-left h2{
-  font-family: 'Playfair Display', serif;
+.footer-left h2 {
+  font-family: "Playfair Display", serif;
   color: #c8a66a;
   font-size: 2rem;
   margin-bottom: 20px;
 }
-.nav-foot{
+.icons {
   display: flex;
-  gap: 40px;
+  gap: 20px;
+}
+.ic {
+  background-color: #c8a66a;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  margin-top: 90px;
+}
+.ic:hover {
+  transform: scale(1.1);
+}
+.nav-foot {
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
-.nav-foot a{
+.nav-foot a {
   color: #bcb6b6;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s;
 }
-.nav-foot a:hover{
+.nav-foot a:hover {
   color: #c2a875;
 }
-.nav-foot:hover{
+.nav-foot ul {
+  list-style-type: none;
+}
+.nav-foot:hover {
   color: #c8a66a;
 }
-.footer-right{
+.footer-right {
   display: flex;
   flex-direction: column;
   gap: 30px;
   text-align: right;
 }
-.footer-right small{
+.footer-right small {
   color: #999;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.footer-right p{
+.footer-right p {
   margin: 4px 0 0;
   font-size: 1rem;
   color: #eee;
 }
-
